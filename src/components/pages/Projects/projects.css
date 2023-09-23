@@ -1,0 +1,22 @@
+.projects {
+  padding: 2rem 1rem;
+  background: linear-gradient(lightcyan, white);
+}
+
+.projects__header {
+  border-bottom: 1px solid rgb(92, 82, 82);
+  padding: 1rem;
+  font-family: monospace;
+}
+
+.projects__cards {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+

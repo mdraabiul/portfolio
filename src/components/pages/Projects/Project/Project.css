@@ -1,0 +1,85 @@
+.project {
+  margin: 0.5rem;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 30%;
+  background: white;
+}
+
+.project__name {
+  border-bottom: 1px solid lightgrey;
+  text-align: left;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  color: orangered;
+}
+
+.project__description {
+  text-align: left;
+  padding: 0.5rem;
+  font-family: verdana;
+  font-size: small;
+}
+
+.project__image {
+  width: 100%;
+  height: 100%;
+}
+.project__image > img {
+  width: 100%;
+  min-height: 200px;
+}
+
+.project__image > img:hover {
+  width: 100%;
+  opacity: 0.9;
+}
+
+.project__tags {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+.project__tags > button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: left;
+  color: white;
+  background: orangered;
+  border: none;
+  font-size: xx-small;
+  font-weight: bolder;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+
+.project__visit {
+  width: 100%;
+}
+
+.project__visit > button {
+  width: 100%;
+  padding-block: 0.5rem;
+  border: 1px solid lightgrey;
+  color: black;
+  font-weight: 900;
+  font-family: sans-serif;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.project__visit > button:hover {
+  background: orangered;
+  color: white;
+}
+
+@media screen and (max-width:425px) {
+  .project {
+    width: 100%;
+  }
+  .project__name{
+    font-size: small;
+    text-align: center;
+  }
+  
+  
+}

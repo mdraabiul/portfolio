@@ -1,0 +1,48 @@
+.about__techs {
+  border: 1px solid lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  margin: 1rem;
+}
+
+.about__techs-type {
+  background: orangered;
+  padding: 0.2rem;
+  color: white;
+  font-family: cursive;
+}
+
+.about__techs-body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.4rem;
+}
+
+.tech-logo {
+  width: 25%;
+  margin: 0.2rem;
+  border: 1px solid white;
+  transition: ease-in-out 0.3s;
+}
+
+.tech-logo:hover {
+  border: 1px solid lightgrey;
+  color: hotpink;
+  opacity: 0.9;
+}
+
+small {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 425px) {
+  .about__techs {
+    width: 100%;
+  }
+}

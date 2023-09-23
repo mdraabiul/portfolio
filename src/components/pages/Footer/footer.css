@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+.footer__social > div {
+  margin-inline: 2rem;
+  padding: 0.5rem;
+}
+.footer__social > div:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__social > div {
+    margin-inline: 1.8rem;
+  }
+  
+}

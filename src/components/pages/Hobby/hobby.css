@@ -1,0 +1,52 @@
+.hobby__header {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: sans-serif;
+  font-size: small;
+  padding: 0.5rem;
+  margin-inline: 1rem;
+  text-align: center;
+}
+
+.hobby {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.hobby__left {
+  flex: 0.3;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.hobby__left-icon {
+  width: 25%;
+}
+
+.hobby__right {
+  flex: 0.5;
+  padding: 0.5rem;
+  justify-content: left;
+  text-align: left;
+  font-family: cursive;
+  font-size: large;
+}
+
+@media screen and (max-width: 425px) {
+  .hobby__header {
+    font-size: x-small;
+  }
+
+  .hobby {
+    display: block;
+    width: 100%;
+  }
+  .hobby__right {
+    font-size: small;
+  }
+}

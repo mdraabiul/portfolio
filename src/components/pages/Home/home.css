@@ -1,0 +1,122 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: lightcyan;
+  height: 100vh;
+}
+
+.home__profile {
+  width: 100%;
+  object-fit: contain;
+}
+.home__profile > img {
+  width: 250px;
+  border-radius: 50%;
+  object-fit: contain;
+  border-bottom: 1px solid lightgrey;
+  transition: all 1s;
+}
+
+
+.home__profile > img:hover {
+  background: rgb(83, 237, 106);
+}
+
+.home__title {
+  padding: 1rem;
+}
+
+.home__title > h1 {
+  text-align: left;
+  font-family: verdana;
+  color: #263238;
+}
+
+.home__description {
+  text-align: center;
+  font-family: cursive;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.home__description > p {
+  text-align: left;
+  font-size: medium;
+}
+
+.home__visitProjects {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+}
+
+.home__visitProjects > button {
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.home__visitProjects-btn {
+  flex: 0.6;
+  height: 30px;
+  background: #ff5722;
+  border: none;
+  margin-right: 1rem;
+  color: white;
+  transition: all 0.5s;
+}
+
+.home__visitProjects-btn:hover {
+  background-color: #ff5732;
+}
+
+.home__visitProjects-btn:active {
+  background-color: white;
+  color: black;
+}
+
+.home__HireMe-btn {
+  flex: 0.4;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.5s;
+}
+
+.home__HireMe-btn:hover {
+  background-color: #ff5722;
+  border: 1px solid lightgrey;
+  color: white;
+}
+
+.home__HireMe-btn:active {
+  background: white;
+  color: black;
+}
+
+
+
+@media screen and (max-width: 425px) {
+  .home__profile > img {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+    border-bottom: 1px solid lightgrey;
+    transition: all 1s;
+  }
+
+  .home__title{
+    font-size: x-small;
+  }
+.home__description{
+  width: 100vw;
+}
+  .home__description > p {
+    width: fit-content;
+  }
+
+}
