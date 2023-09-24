@@ -47,6 +47,7 @@ textarea {
   border: none;
   outline: none;
   font-size: large;
+  font-family: sans-serif;
   resize: none;
   border-bottom: 1px solid white;
   transition: ease-in-out 0.5s;
@@ -83,7 +84,7 @@ input:focus {
   background: orangered;
   border: none;
 }
-.contact__form-submit:disabled{
+.contact__form-submit:disabled {
   background: grey;
 }
 
@@ -104,6 +105,10 @@ input:focus {
   .contact__form-submit {
     font-size: 15px;
   }
+  textarea {
+    font-size: small;
+
+  }
 }
 
 @media screen and (max-width: 330px) {
@@ -120,13 +125,11 @@ input:focus {
 
   textarea {
     font-size: small;
-    font-family: sans-serif;
+    
   }
 
-  .contact__form-submit{
+  .contact__form-submit {
     font-size: 9px;
     height: 2rem;
   }
-
-
 }
