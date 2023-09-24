@@ -86,6 +86,7 @@ input:focus {
 }
 .contact__form-submit:disabled {
   background: grey;
+  color: black;
 }
 
 .contact__form-value {
