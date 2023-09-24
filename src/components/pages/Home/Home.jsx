@@ -38,6 +38,8 @@ const Home = () => {
           Hire me
         </button>
       </div>
+
+      
     </div>
   );
 };

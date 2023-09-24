@@ -27,7 +27,7 @@
 }
 .project__image > img {
   width: 100%;
-  min-height: 200px;
+  height: 200px;
 }
 
 .project__image > img:hover {
@@ -72,14 +72,64 @@
   color: white;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
   .project {
     width: 100%;
   }
-  .project__name{
+  .project__name {
     font-size: small;
     text-align: center;
   }
-  
-  
+}
+
+@media screen and (max-width: 330px) {
+  .project {
+    width: 100%;
+  }
+
+  .project__name {
+    font-size: x-small;
+    text-align: center;
+  }
+  .project__description {
+    text-align: left;
+    padding: 0.5rem;
+    font-family: verdana;
+    font-size: small;
+  }
+
+  .project__image {
+    width: 100%;
+    height: 100%;
+  }
+  .project__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .project__tags > button {
+    margin: 0.2rem;
+    padding: 0.3rem;
+    text-align: left;
+    color: white;
+    background: orangered;
+    border: none;
+    font-size: xx-small;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: 1px solid transparent;
+  }
+
+  .project__visit > button {
+    width: 100%;
+    padding-block: 0.3rem;
+    border: 1px solid lightgrey;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
 }

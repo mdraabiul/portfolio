@@ -19,4 +19,8 @@
   justify-content: center;
 }
 
-
+@media screen and (max-width: 330px) {
+  .projects__header {
+  font-size: x-small;
+  }
+}

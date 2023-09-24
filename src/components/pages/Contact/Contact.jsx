@@ -71,7 +71,7 @@ const Contact = () => {
               id="message"
               cols="50"
               rows="10"
-              placeholder="message"
+              placeholder="Your Message"
               value={message}
               onChange={handleMessage}
               spellCheck

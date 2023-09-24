@@ -5,3 +5,17 @@
   height: 24pt;
   width: 24pt;
 }
+
+@media screen and (max-width: 330px) {
+  .footer__social > div {
+    margin-inline: 1rem;
+  }
+  
+  .svg__linkedin,
+  .svg__github,
+  .svg__email,
+  .svg__facebook {
+    height: 16pt;
+    width: 16pt;
+  }
+}

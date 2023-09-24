@@ -10,6 +10,7 @@ import {
   suitcase,
   travelling,
 } from "../../icons";
+
 import { aboutHobby } from "../../constants";
 
 const Hobby = () => {
