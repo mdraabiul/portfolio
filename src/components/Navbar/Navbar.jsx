@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <a href="#home" className="title">
+      <a href="/#home" className="title">
         <span></span>
         <p>Rabiul</p>
       </a>

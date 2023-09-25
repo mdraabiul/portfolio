@@ -25,7 +25,7 @@ const Home = () => {
 
       <div className="home__visitProjects">
         <button
-          onClick={() => (window.location.href = "/#projects")}
+          onClick={() => (window.location.href = "#projects")}
           className="home__visitProjects-btn"
         >
           View My Projects
@@ -33,7 +33,7 @@ const Home = () => {
 
         <button
           className="home__HireMe-btn"
-          onClick={() => (window.location.href = "/#contact")}
+          onClick={() => (window.location.href = "#contact")}
         >
           Hire me
         </button>
