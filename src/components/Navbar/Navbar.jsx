@@ -50,7 +50,6 @@ const Navbar = () => {
 
       {pages.map((page, index) => (
         <a key={index} href={page.link} id={`link-${index}`}>
-          {console.log(page.link)}
           {page.name}
         </a>
       ))}
