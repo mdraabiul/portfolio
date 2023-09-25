@@ -5,7 +5,7 @@ const Navbar = () => {
   const pages = [
     {
       name: "Home",
-      link: "#home",
+      link: "/portfolio/#home",
     },
 
     {
@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <a href="/#home" className="title">
+      <a href="/portfolio/#home" className="title">
         <span></span>
         <p>Rabiul</p>
       </a>
